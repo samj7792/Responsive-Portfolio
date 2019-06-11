@@ -209,3 +209,64 @@ font attributes make font in input fields uniform;*/
     color: #ffffff;
     padding: 10px;
 }
+
+/*media queries*/
+
+@media screen and (max-width: 980px) {
+    /*The main section takes up about 2/3s of screen*/
+    .container {
+        width: 600px;
+        margin-left: 10px;
+    }
+    .headcontainer {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 700px;
+        margin: 0 auto;
+    }
+    .headcontainer {
+        width: 700px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        width: 580px;
+        margin: 0 auto;
+    }
+
+    header {
+        position: static;
+    }
+
+    .headcontainer {
+        width: 580px;
+        margin: 0 auto;
+    }
+
+    h1 {
+        float: none;
+        text-align: center;
+    }
+
+    nav {
+        float: none;
+        text-align: center;
+    }
+
+    section {
+        margin-top: 0px;
+    }
+
+    #headshot {
+        float: none;
+        align-self: center;
+    }
+}
