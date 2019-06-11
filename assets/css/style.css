@@ -215,7 +215,7 @@ font attributes make font in input fields uniform;*/
 @media screen and (max-width: 980px) {
     /*The main section takes up about 2/3s of screen*/
     .container {
-        width: 600px;
+        width: 700px;
         margin-left: 10px;
     }
     .headcontainer {
@@ -238,7 +238,7 @@ font attributes make font in input fields uniform;*/
 
 @media screen and (max-width: 640px) {
     .container {
-        width: 580px;
+        max-width: 580px;
         margin: 0 auto;
     }
 
@@ -259,6 +259,7 @@ font attributes make font in input fields uniform;*/
     nav {
         float: none;
         text-align: center;
+        padding: 20px;
     }
 
     section {
@@ -268,5 +269,10 @@ font attributes make font in input fields uniform;*/
     #headshot {
         float: none;
         align-self: center;
+    }
+
+    #proj1, #proj2, #proj3, #proj4, #proj5 {
+        width: 540px;
+        height: auto;
     }
 }
