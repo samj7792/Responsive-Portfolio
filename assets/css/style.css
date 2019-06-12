@@ -244,10 +244,11 @@ font attributes make font in input fields uniform;*/
 
     header {
         position: static;
+        width: 640px;
     }
 
     .headcontainer {
-        width: 580px;
+        width: 640px;
         margin: 0 auto;
     }
 
@@ -259,7 +260,7 @@ font attributes make font in input fields uniform;*/
     nav {
         float: none;
         text-align: center;
-        padding: 20px;
+        padding: 10px;
     }
 
     section {
@@ -268,11 +269,33 @@ font attributes make font in input fields uniform;*/
 
     #headshot {
         float: none;
-        align-self: center;
+        width: 100%;
+        height: auto;
+        padding: 0;
     }
 
     #proj1, #proj2, #proj3, #proj4, #proj5 {
         width: 540px;
         height: auto;
+    }
+
+    #proj1 {
+        background-image: url(http://lorempixel.com/540/300/sports);
+    }
+
+    #proj2 {
+        background-image: url(http://lorempixel.com/540/300/animals);
+    }
+
+    #proj3 {
+        background-image: url(http://lorempixel.com/540/300/abstract);
+    }
+
+    #proj4 {
+        background-image: url(http://lorempixel.com/540/300/food);
+    }
+
+    #proj5 {
+        background-image: url(http://lorempixel.com/540/300/city);
     }
 }
